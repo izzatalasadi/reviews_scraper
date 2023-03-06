@@ -15,16 +15,16 @@ author,author_link,title,url
   scrapy startproject theVergeReviews
 
   Add some customized settings to settings.py
-  # Page visit limit
+  ### Page visit limit
   CLOSESPIDER_PAGECOUNT = 20
 
 
-  # User agent to mimic browser requests
+  ### User agent to mimic browser requests
   USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'
 
 
 
-  Adding items (Field objects) to items.py
+ ### Adding items (Field objects) to items.py
   class ThevergereviewsItem(scrapy.Item):
      # define the fields for your item here like:
      url = scrapy.Field()
@@ -33,7 +33,8 @@ author,author_link,title,url
      author_link = scrapy.Field()
 
      Pass
-  Create a new python file (reviews.py), 
+ ## Create a new python file (reviews.py), 
   theVergeReviews → theVergeReviews → spiders → reviews.py 
   Import important libraries and the items, and create a class ReviewSpider(CrawlSpider)
-  Comments added for each line of code
+  
+  ## Comments added for each line of code in reviews.py
