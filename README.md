@@ -25,14 +25,13 @@ author,author_link,title,url
 
 
  ### Adding items (Field objects) to items.py
-class ThevergereviewsItem(scrapy.Item):
-   url = scrapy.Field()
-   title = scrapy.Field()
-   author = scrapy.Field()
-   author_link = scrapy.Field()
+    class ThevergereviewsItem(scrapy.Item):
+       url = scrapy.Field()
+       title = scrapy.Field()
+       author = scrapy.Field()
+       author_link = scrapy.Field()
 
-     Pass
- ## Create a new python file (reviews.py), 
+## Create a new python file (reviews.py), 
   theVergeReviews → theVergeReviews → spiders → reviews.py 
   Import important libraries and the items, and create a class ReviewSpider(CrawlSpider)
   
