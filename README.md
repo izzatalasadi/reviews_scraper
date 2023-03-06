@@ -7,7 +7,7 @@ The script defines a spider that can crawl theverge.com and extract review infor
 * scrapy runspider  reviews.py  -o reviews.csv  -t  csv
 
 ## after you run the code you will get a csv file with reviews includes:
-author,author_link,title,url
+  author,author_link,title,url
 
 
 ## important steps to create similar project
@@ -16,11 +16,11 @@ author,author_link,title,url
 
 ## Add some customized settings to settings.py
   ### Page visit limit
-  CLOSESPIDER_PAGECOUNT = 20
+    CLOSESPIDER_PAGECOUNT = 20
 
 
   ### User agent to mimic browser requests
-  USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'
+    USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'
 
 
 
