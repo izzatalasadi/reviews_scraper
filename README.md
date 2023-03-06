@@ -11,10 +11,10 @@ author,author_link,title,url
 
 
 ## important steps to create similar project
-  Create a new project called theVergeReviews:
+* Create a new project called theVergeReviews:
   scrapy startproject theVergeReviews
 
-  Add some customized settings to settings.py
+## Add some customized settings to settings.py
   ### Page visit limit
   CLOSESPIDER_PAGECOUNT = 20
 
