@@ -3,8 +3,8 @@ The script defines a spider that can crawl theverge.com and extract review infor
 
 
 ## run the code:
-cd theVergeReviews/theVergeReviews
-scrapy runspider  reviews.py  -o reviews.csv  -t  csv
+* cd theVergeReviews/theVergeReviews
+* scrapy runspider  reviews.py  -o reviews.csv  -t  csv
 
 ## after you run the code you will get a csv file with reviews includes:
 author,author_link,title,url
