@@ -32,7 +32,7 @@ The script defines a spider that can crawl theverge.com and extract review infor
        author_link = scrapy.Field()
 
 ## Create a new python file (reviews.py), 
-  theVergeReviews → theVergeReviews → spiders → reviews.py 
-  Import important libraries and the items, and create a class ReviewSpider(CrawlSpider)
+  * theVergeReviews → theVergeReviews → spiders → reviews.py 
+  * Import important libraries and the items, and create a class ReviewSpider(CrawlSpider)
   
   ## Comments added for each line of code in reviews.py
