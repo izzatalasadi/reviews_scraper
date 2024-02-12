@@ -1,4 +1,4 @@
-# An example about <b>how to use scrapy</b>
+# An example about how to use `scrapy`
 ## reviews_scraper
 The script defines a spider that can crawl <b>www.theverge.com</b> and extract review information from the pages that match a specific regular expression pattern.
 
